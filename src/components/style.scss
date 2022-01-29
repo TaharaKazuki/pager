@@ -1,0 +1,36 @@
+.pageNumber {
+  list-style: none;
+  display: flex;
+  & > li {
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    &.active {
+      background-color: white;
+      color: black;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.loadmore {
+  padding: 1rem;
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  cursor: pointer;
+}
